@@ -9,6 +9,7 @@ public class Ej17 {
 
 
     public static void main() {
+        System.out.println("Ejercicio 17: Electrodomésticos");
         Electrodomestico[] listaE =new Electrodomestico[10];
         
         listaE[0]=new Electrodomestico(200, "Verde",'C',60);

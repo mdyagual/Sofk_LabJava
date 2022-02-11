@@ -1,5 +1,5 @@
 import algoritmos.*;
-import miscelaneos.ejercicio16.*;
+//import miscelaneos.ejercicio16.*;
 import miscelaneos.ejercicio17.*;
 import miscelaneos.ejercicio18.*;
 
