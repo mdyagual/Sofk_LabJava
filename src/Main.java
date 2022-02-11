@@ -41,10 +41,10 @@ public class Main {
                             case "6":
                                 Comprobacion.ej7();
                                 break;
-                            /*case "7":
+                            case "7":
                                 DiaSemana.ej8();
                                 break;
-                            case "8":
+                            /*case "8":
                                 Reemplazo.ej9();
                                 break;*/
 
