@@ -9,7 +9,7 @@ public class Ej17 {
 
 
     public static void main() {
-        Electrodomestico listaE[]=new Electrodomestico[10];
+        Electrodomestico[] listaE =new Electrodomestico[10];
         
         listaE[0]=new Electrodomestico(200, "Verde",'C',60);
         listaE[1]=new Lavadora(150, 30);

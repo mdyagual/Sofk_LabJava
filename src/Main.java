@@ -1,5 +1,7 @@
 import algoritmos.*;
-import miscelaneos.ejercicio17.Ej17;
+import miscelaneos.ejercicio16.*;
+import miscelaneos.ejercicio17.*;
+import miscelaneos.ejercicio18.*;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -90,7 +92,7 @@ public class Main {
                                 Ej17.main();
                                 break;
                             case "18":
-                                //Ej18.main();
+                                Ej18.main();
                                 break;
                             case "R":
                                 System.out.println("Regresando al menú principal");
