@@ -57,6 +57,9 @@ public class Main {
                             case "11":
                                 CompararPalabra.ej12();
                                 break;
+                            case "12":
+                                ConsultarFecha.ej13();
+                                break;
 
                             case "R":
                                 System.out.println("Regresando al menú principal");
