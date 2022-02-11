@@ -1,4 +1,5 @@
 import algoritmos.*;
+import miscelaneos.ejercicio17.Ej17;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -6,8 +7,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String op ="";
-        while (!(op.equals("3"))){
+        String op = "";
+        while (!(op.equals("3"))) {
             System.out.println("Sofka U - Laboratorio de Java");
             System.out.println("1. Algoritmos: Ejercicios del 1 al 15");
             System.out.println("2. Misceláneos: Ejercicios del 16 al 18");
@@ -15,14 +16,14 @@ public class Main {
 
             System.out.print("Seleccione una opción: ");
             op = sc.nextLine();
-            switch (op){
+            switch (op) {
                 case "1":
-                    String subop ="";
-                    while (!(subop.equals("R"))){
+                    String subop = "";
+                    while (!(subop.equals("R"))) {
                         mostrarOpsAlg();
                         System.out.print("Seleccione una opción: ");
                         subop = sc.nextLine().toUpperCase();
-                        switch (subop){
+                        switch (subop) {
                             case "1":
                                 MayorMenor.ej1y2();
                                 break;
@@ -76,24 +77,44 @@ public class Main {
                     }
                     break;
                 case "2":
-                    System.out.println();
-                    break;
-                case "3":
-                    System.out.println("Laboratorio realizado por Mishell Yagual, para Sofka U~");
-                    break;
-                default:
-                    System.out.println("Ingrese una opción válida");
-                    break;
+                    String subop2 = "";
+                    while (!(subop2.equals("R"))) {
+                        mostrarOpsMisc();
+                        System.out.print("Seleccione una opción: ");
+                        subop2 = sc.nextLine().toUpperCase();
+                        switch (subop2) {
+                            case "16":
+                                //Ej16.main();
+                                break;
+                            case "17":
+                                Ej17.main();
+                                break;
+                            case "18":
+                                //Ej18.main();
+                                break;
+                            case "R":
+                                System.out.println("Regresando al menú principal");
+                                System.out.println();
+                                break;
+                            default:
+                                System.out.println("Ingrese una opción válida");
+                                break;
+                        }
+                        System.out.println();
+                    }
+                        break;
+                        case "3":
+                            System.out.println("Laboratorio realizado por Mishell Yagual, para Sofka U~");
+                            break;
+                        default:
+                            System.out.println("Ingrese una opción válida");
+                            break;
+                    }
             }
-        }
-
-
-
 
 
 
     }
-
     public static void mostrarOpsAlg(){
         System.out.println("Algoritmos~");
         System.out.println("1. Ejercicio 1y2");
@@ -103,4 +124,14 @@ public class Main {
         System.out.println("R. Regresar al menú principal");
         System.out.println();
     }
+
+    public static void mostrarOpsMisc(){
+        System.out.println("Misceláneos~");
+        for(int i=16; i<19;i++){
+            System.out.printf("%d. Ejercicio %d\n",i,(i+1));
+        }
+        System.out.println("R. Regresar al menú principal");
+        System.out.println();
+    }
 }
+
