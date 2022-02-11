@@ -38,10 +38,10 @@ public class Main {
                             case "5":
                                 NumsParImp2.ej6();
                                 break;
-                            /*case "6":
+                            case "6":
                                 Comprobacion.ej7();
                                 break;
-                            case "7":
+                            /*case "7":
                                 DiaSemana.ej8();
                                 break;
                             case "8":
