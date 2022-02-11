@@ -50,6 +50,9 @@ public class Main {
                             case "9":
                                 QuitarEspacio.ej10();
                                 break;
+                            case "10":
+                                ChequeoFrase.ej11();
+                                break;
 
                             case "R":
                                 System.out.println("Regresando al menú principal");
