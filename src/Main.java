@@ -44,9 +44,9 @@ public class Main {
                             case "7":
                                 DiaSemana.ej8();
                                 break;
-                            /*case "8":
+                            case "8":
                                 Reemplazo.ej9();
-                                break;*/
+                                break;
 
                             case "R":
                                 System.out.println("Regresando al menú principal");
