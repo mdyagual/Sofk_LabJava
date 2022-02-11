@@ -26,10 +26,10 @@ public class Main {
                             case "1":
                                 MayorMenor.ej1y2();
                                 break;
-                            /*case "2":
+                            case "2":
                                 AreaCirculo.ej3();
                                 break;
-                            case "3":
+                            /*case "3":
                                 Facturar.ej4();
                                 break;
                             case "4":
