@@ -6,10 +6,6 @@ package miscelaneos.ejercicio17;
  * and open the template in the editor.
  */
 
-/**
- *
- * @author Henry
- */
 public class Electrodomestico {
     
     //Constantes

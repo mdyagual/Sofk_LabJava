@@ -5,10 +5,6 @@
  */
 package miscelaneos.ejercicio17;
 
-/**
- *
- * @author Henry
- */
 public class Ej17 {
 
 

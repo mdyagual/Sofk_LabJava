@@ -5,10 +5,6 @@
  */
 package miscelaneos.ejercicio17;
 
-/**
- *
- * @author Henry
- */
 public class Lavadora extends Electrodomestico{
     //Constante
     private final double CARGA_DEF=5;
