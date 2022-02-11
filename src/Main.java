@@ -32,10 +32,10 @@ public class Main {
                             case "3":
                                 Facturar.ej4();
                                 break;
-                            /*case "4":
+                            case "4":
                                 NumsParImp.ej5();
                                 break;
-                            case "5":
+                            /*case "5":
                                 NumsParImp2.ej6();
                                 break;
                             case "6":
