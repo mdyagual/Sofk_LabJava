@@ -17,6 +17,7 @@ public class Main {
             switch (op){
                 case "1":
                     String subop ="";
+
                     while (!(subop.equals("R"))){
                         mostrarOpsAlg();
                         System.out.print("Seleccione una opción: ");
@@ -53,6 +54,9 @@ public class Main {
                             case "10":
                                 ChequeoFrase.ej11();
                                 break;
+                            case "11":
+                                CompararPalabra.ej12();
+                                break;
 
                             case "R":
                                 System.out.println("Regresando al menú principal");
@@ -82,6 +86,7 @@ public class Main {
     }
 
     public static void mostrarOpsAlg(){
+        System.out.println("Algoritmos~");
         System.out.println("1. Ejercicio 1y2");
         for(int i=2; i<15;i++){
             System.out.printf("%d. Ejercicio %d\n",i,(i+1));
