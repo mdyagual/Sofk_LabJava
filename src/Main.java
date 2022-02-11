@@ -60,6 +60,9 @@ public class Main {
                             case "12":
                                 ConsultarFecha.ej13();
                                 break;
+                            case "13":
+                                Serie2en2.ej14();
+                                break;
 
                             case "R":
                                 System.out.println("Regresando al menú principal");
