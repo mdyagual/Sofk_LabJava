@@ -26,7 +26,7 @@ public class Main {
                             case "1":
                                 MayorMenor.ej1y2();
                                 break;
-                            case "2":
+                            /*case "2":
                                 AreaCirculo.ej3();
                                 break;
                             case "3":
@@ -46,7 +46,7 @@ public class Main {
                                 break;
                             case "8":
                                 Reemplazo.ej9();
-                                break;
+                                break;*/
 
                             case "R":
                                 System.out.println("Regresando al menú principal");
