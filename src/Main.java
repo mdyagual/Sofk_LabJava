@@ -76,6 +76,7 @@ public class Main {
                     }
                     break;
                 case "2":
+                    System.out.println();
                     break;
                 case "3":
                     System.out.println("Laboratorio realizado por Mishell Yagual, para Sofka U~");
