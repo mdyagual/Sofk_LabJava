@@ -29,10 +29,10 @@ public class Main {
                             case "2":
                                 AreaCirculo.ej3();
                                 break;
-                            /*case "3":
+                            case "3":
                                 Facturar.ej4();
                                 break;
-                            case "4":
+                            /*case "4":
                                 NumsParImp.ej5();
                                 break;
                             case "5":
