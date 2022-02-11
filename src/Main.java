@@ -47,6 +47,9 @@ public class Main {
                             case "8":
                                 Reemplazo.ej9();
                                 break;
+                            case "9":
+                                QuitarEspacio.ej10();
+                                break;
 
                             case "R":
                                 System.out.println("Regresando al menú principal");
