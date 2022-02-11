@@ -35,10 +35,10 @@ public class Main {
                             case "4":
                                 NumsParImp.ej5();
                                 break;
-                            /*case "5":
+                            case "5":
                                 NumsParImp2.ej6();
                                 break;
-                            case "6":
+                            /*case "6":
                                 Comprobacion.ej7();
                                 break;
                             case "7":
