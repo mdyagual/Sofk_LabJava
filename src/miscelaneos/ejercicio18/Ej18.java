@@ -7,7 +7,7 @@ package miscelaneos.ejercicio18;
 
 public class Ej18 {
     public static void main() {
-        // TODO code application logic here
+        System.out.println("Ejercicio 19: Series y Videojuegos");
         //Creamos dos arrays de cada tipo de objeto
         Serie[] listaSeries =new Serie[5];
         Videojuego[] listaVideojuegos =new Videojuego[5];
@@ -28,8 +28,15 @@ public class Ej18 {
         //entregamos algunos videojuegos y series
         listaSeries[1].entregar();
         listaSeries[4].entregar();
-        listaVideojuegos[0].entregar();
+        System.out.printf("La serie %s está prestada\n",listaSeries[1].getTitulo());
+        System.out.printf("La serie %s está prestada\n",listaSeries[4].getTitulo());
+
+        listaVideojuegos[1].entregar();
         listaVideojuegos[3].entregar();
+        System.out.printf("El videojuego %s está prestado\n",listaVideojuegos[1].getTitulo());
+        System.out.printf("El videojuego %s está prestado\n",listaVideojuegos[3].getTitulo());
+
+        System.out.println();
         
         //Recorremos los arrays para contar cuantos entregados hay, tambien los devolvemos
   
@@ -39,15 +46,17 @@ public class Ej18 {
             if(listaSeries[i].isEntregado()){
                 entregados+=1;
                 listaSeries[i].devolver();
+                System.out.printf("La serie %s ha sido devuelta\n",listaSeries[i].getTitulo());
   
             }
             if(listaVideojuegos[i].isEntregado()){
                 entregados+=1;
                 listaVideojuegos[i].devolver();
+                System.out.printf("El videojuego %s ha sido devuelto\n",listaVideojuegos[i].getTitulo());
             }
         }
   
-        System.out.println("Hay "+entregados+" articulos entregados");
+        System.out.println("\nSe entregaron "+entregados+" articulos y han sido devueltos\n");
   
             
         //Creamos dos objetos con la primera posicion de cada array
@@ -66,7 +75,9 @@ public class Ej18 {
         }
   
         //Mostramos toda la informacion del videojuego y serie mayor
+        System.out.println("Videojuego con más horas estimadas");
         System.out.println(videojuegoMayor);
+        System.out.println("\nSerie con más temporadas");
         System.out.println(serieMayor);
   
     }
