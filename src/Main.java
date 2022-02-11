@@ -1,5 +1,6 @@
 import algoritmos.*;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
@@ -17,12 +18,10 @@ public class Main {
             switch (op){
                 case "1":
                     String subop ="";
-
                     while (!(subop.equals("R"))){
                         mostrarOpsAlg();
                         System.out.print("Seleccione una opción: ");
-                        subop = sc.nextLine();
-
+                        subop = sc.nextLine().toUpperCase();
                         switch (subop){
                             case "1":
                                 MayorMenor.ej1y2();
@@ -66,10 +65,10 @@ public class Main {
                             case "14":
                                 GestionCinematografica.ej15();
                                 break;
-
                             case "R":
                                 System.out.println("Regresando al menú principal");
                                 System.out.println();
+                                break;
                             default:
                                 System.out.println("Ingrese una opción válida");
                                 break;
