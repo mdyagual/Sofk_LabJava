@@ -129,10 +129,10 @@ public class Electrodomestico {
 
    
     public void informacionGeneral() {
-        System.out.println(String.format("Precio base: %.2f", precioBase));
-        System.out.println(String.format("Color: %s", color));
-        System.out.println(String.format("Consumo de energía: %c", conEner));
-        System.out.println(String.format("Peso kg: %.2f", pesoKg));
+        System.out.printf("Precio base: %.2f\n", precioBase);
+        System.out.printf("Color: %s\n", color);
+        System.out.printf("Consumo de energía: %c\n", conEner);
+        System.out.printf("Peso kg: %.2f\n", pesoKg);
         
     }
 

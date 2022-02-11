@@ -41,7 +41,7 @@ public class Lavadora extends Electrodomestico{
    @Override
     public void informacionGeneral() {
         super.informacionGeneral();
-        System.out.println(String.format("Carga: %.2f",carga));
+        System.out.printf("Carga: %.2f\n",carga);
     }
    
     
