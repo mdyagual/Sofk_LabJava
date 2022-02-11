@@ -48,8 +48,8 @@ public class Television extends Electrodomestico {
    @Override
     public void informacionGeneral() {
         super.informacionGeneral();
-        System.out.printf("Resolución: %d",resolucion);
-        System.out.printf("TDT: %b", tdt);
+        System.out.printf("Resolución: %d\n",resolucion);
+        System.out.printf("TDT: %b\n", tdt);
     }
    
    
