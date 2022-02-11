@@ -63,6 +63,9 @@ public class Main {
                             case "13":
                                 Serie2en2.ej14();
                                 break;
+                            case "14":
+                                GestionCinematografica.ej15();
+                                break;
 
                             case "R":
                                 System.out.println("Regresando al menú principal");
