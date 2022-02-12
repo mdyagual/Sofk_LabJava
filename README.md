@@ -3,7 +3,7 @@ Recopilación de ejercicios para practicar Java. Desde algoritmos, a misceláneo
 La práctica consiste en 18 ejercicios, donde 15 de ellos son algoritmos y los demás están orientados a la POO. Estos 18 ejercicios fueron recopilados en un solo programa donde se prodrá acceder a cada uno de ellos.
 
 # Inicio del programa
-## Menu principal
+## Menú principal
 
 ![Menu principal](https://github.com/mdyagual/Sofka_LabJava/blob/master/ss/menuPrincipal.JPG)
 
@@ -36,8 +36,9 @@ Regresando al menú principal desde la opción 2, se procede a finalizar el prog
 
 ![Menu principal 2](https://github.com/mdyagual/Sofka_LabJava/blob/master/ss/menuPrincipal2.JPG)
 
-# Comentario final
+# Comentarios finales
 - Se aplicó todos los conceptos relacionados a un manejo básico-intermedio relacionada a Java, concentrando todo en un solo programa para facilidad de revisión final de todos los ejercicios
+- Se adjunta el pdf donde se encuentran las instrucciones para resolver todos los ejercicios
 
 
 
