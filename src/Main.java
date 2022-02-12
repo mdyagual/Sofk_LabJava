@@ -1,5 +1,5 @@
 import algoritmos.*;
-//import miscelaneos.ejercicio16.*;
+import miscelaneos.ejercicio16.*;
 import miscelaneos.ejercicio17.*;
 import miscelaneos.ejercicio18.*;
 
@@ -86,7 +86,7 @@ public class Main {
                         subop2 = sc.nextLine().toUpperCase();
                         switch (subop2) {
                             case "16":
-                                //Ej16.main();
+                                Ej16.main();
                                 break;
                             case "17":
                                 Ej17.main();
