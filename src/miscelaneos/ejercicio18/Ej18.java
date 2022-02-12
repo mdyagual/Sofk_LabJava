@@ -7,7 +7,7 @@ package miscelaneos.ejercicio18;
 
 public class Ej18 {
     public static void main() {
-        System.out.println("Ejercicio 19: Series y Videojuegos");
+        System.out.println("Ejercicio 18: Series y Videojuegos");
         //Creamos dos arrays de cada tipo de objeto
         Serie[] listaSeries =new Serie[5];
         Videojuego[] listaVideojuegos =new Videojuego[5];

@@ -85,13 +85,13 @@ public class Main {
                         System.out.print("Seleccione una opción: ");
                         subop2 = sc.nextLine().toUpperCase();
                         switch (subop2) {
-                            case "16":
+                            case "15":
                                 Ej16.main();
                                 break;
-                            case "17":
+                            case "16":
                                 Ej17.main();
                                 break;
-                            case "18":
+                            case "17":
                                 Ej18.main();
                                 break;
                             case "R":
@@ -129,7 +129,7 @@ public class Main {
 
     public static void mostrarOpsMisc(){
         System.out.println("Misceláneos~");
-        for(int i=16; i<19;i++){
+        for(int i=15; i<18;i++){
             System.out.printf("%d. Ejercicio %d\n",i,(i+1));
         }
         System.out.println("R. Regresar al menú principal");

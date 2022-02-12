@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Ej16 {
     public static void main() {
+        System.out.println("Ejercicio 16: IMC persona");
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese nombre: ");
         String nom=sc.nextLine();
